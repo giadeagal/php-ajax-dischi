@@ -3,3 +3,31 @@
     padding:0;
     box-sizing: border-box;
 }
+
+body {
+    color: #06396c;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: #06396c;
+    padding:10px;
+    position: fixed;
+    z-index: 1;
+}
+
+header img {
+    max-height: 100%;
+}
+
+main {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #379583;
+    padding-top: 80px;
+}
+
+.card {
+    background-color: #5cdc95;
+}
