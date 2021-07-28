@@ -13,6 +13,9 @@ include "db.php";
     <title>Top 10 Jazz Albums of All Time</title>
 </head>
 <body>
-    <img src="<?php echo $albums[0]['poster']?>" alt="">
+
+<?php foreach ($albums as $album) {?>
+    <img src="<?php echo $album['poster']?>" alt="<?php echo $album['title'] ?>">
+<?php } ?>
 </body>
 </html>
