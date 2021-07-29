@@ -1,8 +1,3 @@
-<?php 
-
-include "db.php";
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -26,22 +21,22 @@ include "db.php";
 
 <div class="container">
     <div class="row justify-content-evenly">
-    <?php foreach ($albums as $album) {?>
+    
     <div class="card col-2 m-3" >
-        <img src="<?php echo $album['poster']?>" class="card-img-top" alt="<?php echo $album['title'] ?>">
+        <img src="" class="card-img-top" alt="">
         <div class="card-body">
-            <h5 class="card-title"><?php echo $album['title'] ?></h5>
+            <h5 class="card-title"></h5>
             <ul class="card-text">
                 <li>
-                    <strong>Autore: </strong> <span><?php echo $album['author'] . ";"?></span>
+                    <strong>Autore: </strong> <span></span>
                 </li>
                 <li>
-                    <strong>Anno: </strong> <span><?php echo $album['year']?></span>
+                    <strong>Anno: </strong> <span></span>
                 </li>
             </ul>
         </div>
     </div>        
-<?php } ?>
+
     </div>
 </div>
 
